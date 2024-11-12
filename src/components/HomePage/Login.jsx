@@ -23,7 +23,7 @@ export default function Login() {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/register", { name, email, password });
+      const response = await axios.post("http://ino360-backend-26.onrender.com/register", { name, email, password });
       alert("User registered successfully!");
       window.location.href = "/homeTwo"; // Redirect after registration
     } catch (error) {
@@ -44,7 +44,7 @@ export default function Login() {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/login", {
+      const response = await axios.post("http://ino360-backend-26.onrender.com/login", {
         email: loginEmail,
         password: loginPassword,
       });
