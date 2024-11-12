@@ -146,7 +146,7 @@ const InnoCheck = () => {
     setLoading(true); // Start loading
     try {
       const response = await axios.post(
-        "http://ino360-backend-26.onrender.com/upload",
+        "https://ino360-backend-26.onrender.com/upload",
         formData
       );
       alert(response.data.message);
