@@ -1,0 +1,47 @@
+.homeContent2 {
+    margin-top: 140px;
+}
+
+.head-clr {
+    color: #000;
+    font-weight: 700;
+}
+
+.upper-head-text {
+    margin-bottom: 60px;
+}
+
+.card-stl-1 {
+    padding: 25px 20px;
+    background: linear-gradient(to left, #E6EEFA, #F0FAF4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 100% !important;
+}
+
+.card-stl-1 h6 {
+    color: #000;
+    font-weight: 700;
+}
+
+.card-stl-1 .para-stl {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.card-stl-1 .err-icon-stl {
+    color: #38B6FF !important;
+    font-size: 22px !important;
+}
+
+@media (min-width: 992px) {
+    .col-lg-20 {
+        flex: 0 0 auto !important;
+        width: 20% !important;
+    }
+}
+
+.para-stl-1 {
+    margin-top: 60px;
+
+}
