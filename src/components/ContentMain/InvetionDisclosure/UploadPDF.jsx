@@ -296,7 +296,7 @@ function UploadPDF() {
         )}
       </div> */}
 
-      <div className="pdf-text-container" style={{ display: "block" }}>
+      <div className="pdf-text-container" style={{ display: "none" }}>
         <h2 className="text-xl font-bold">PDF Text Content:</h2>
         <p id="pdfText" value={pdfText} onChange={handleChange}>
           {pdfText}
