@@ -41,7 +41,7 @@ export default function Navbar() {
             <button onClick={() => navigate("/homeTwo")}>Login</button>
           </li>
           <li className="btn-stl-2 right-btn">
-            <button onClick={() => navigate("/register")}>Contact Us</button>
+            <button}>Contact Us</button>
           </li>
         </ul>
       </header>
