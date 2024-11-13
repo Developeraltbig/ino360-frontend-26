@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../assets/css/login.css";
 import axios from "axios";
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
   const navigate = useNavigate();
