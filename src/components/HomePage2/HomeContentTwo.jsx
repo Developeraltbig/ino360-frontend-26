@@ -23,7 +23,7 @@ export default function HomeContentTwo() {
                 Conduct a comprehensive search to assess invention's uniqueness.
               </p>
               <div className="text-end">
-                <i
+                <i style={{ cursor: "pointer"}}
                   class="bi bi-arrow-right-circle-fill err-icon-stl"
                   onClick={() => navigate("/innoCheck")}
                 ></i>
@@ -37,7 +37,7 @@ export default function HomeContentTwo() {
                 Generate a comprehensive provisional patent specifications.
               </p>
               <div className="text-end">
-                <i
+                <i style={{ cursor: "pointer"}}
                   class="bi bi-arrow-right-circle-fill err-icon-stl"
                   onClick={() => navigate("/provisioDraft")}
                 ></i>
@@ -52,7 +52,7 @@ export default function HomeContentTwo() {
                 description and claims.
               </p>
               <div className="text-end">
-                <i class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
+                <i style={{ cursor: "pointer"}} class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function HomeContentTwo() {
                 references from InnoCheck.
               </p>
               <div className="text-end">
-                <i class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
+                <i style={{ cursor: "pointer"}} class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function HomeContentTwo() {
                 Generate accurate, ready-to-file USPTO forms.
               </p>
               <div className="text-end">
-                <i class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
+                <i style={{ cursor: "pointer"}} class="bi bi-arrow-right-circle-fill err-icon-stl"></i>
               </div>
             </div>
           </div>
