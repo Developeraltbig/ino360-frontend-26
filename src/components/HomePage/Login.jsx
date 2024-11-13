@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import "../../assets/css/login.css";
 import axios from "axios";
 import { Modal, Button, FloatingLabel, Form } from 'react-bootstrap';
+import {useNavigate} from "react-router-dom";
 
 export default function Login() {
+  const navigate = useNavigate();
+  
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -25,7 +28,7 @@ export default function Login() {
     try {
       const response = await axios.post("https://ino360-backend-26.onrender.com/register", { name, email, password });
       alert("User registered successfully!");
-      window.location.href = "/homeTwo"; // Redirect after registration
+      navigate('/homeTwo'); // Redirect after registration
     } catch (error) {
       if (error.response) {
         setErrorMessage(error.response.data.message);
@@ -50,7 +53,7 @@ export default function Login() {
       });
 
       alert("Login successful!");
-      window.location.href = "/homeTwo"; // Redirect after successful login
+      navigate('/homeTwo');// Redirect after successful login
     } catch (error) {
       if (error.response) {
         setLoginErrorMessage(error.response.data.message);
