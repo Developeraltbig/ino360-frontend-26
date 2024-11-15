@@ -63,7 +63,7 @@ function UploadPDF() {
     setAnswer("Generating Answer... Wait for a while...");
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDHWIhQzpCDv49U4tafqu59QV6w5IIMNFY`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAUrKHvLgqbCbmWzdQUBGUTcNQq35HuXRQ`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
@@ -87,7 +87,7 @@ function UploadPDF() {
     setAnswer2("Generating Answer... Wait for a while...");
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDHWIhQzpCDv49U4tafqu59QV6w5IIMNFY`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAUrKHvLgqbCbmWzdQUBGUTcNQq35HuXRQ`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question2 }] }],
@@ -111,7 +111,7 @@ function UploadPDF() {
     setAnswer3("Generating Answer... Wait for a while...");
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDHWIhQzpCDv49U4tafqu59QV6w5IIMNFY`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAUrKHvLgqbCbmWzdQUBGUTcNQq35HuXRQ`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question3 }] }],
