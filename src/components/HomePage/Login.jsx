@@ -47,13 +47,16 @@ export default function Login() {
     }
 
     try {
-      const response = await axios.post("https://ino360-backend-26.onrender.com/login", {
-        email: loginEmail,
-        password: loginPassword,
-      });
+      const response = await axios.post(
+        "https://ino360-backend-26.onrender.com/login",
+        {
+          email: loginEmail,
+          password: loginPassword,
+        }
+      );
 
       alert("Login successful!");
-      navigate('/homeTwo');// Redirect after successful login
+      window.location.href = "/homeTwo"; // Redirect after successful login
     } catch (error) {
       if (error.response) {
         setLoginErrorMessage(error.response.data.message);
